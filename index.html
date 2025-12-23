@@ -44,9 +44,40 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.subtitle {
+  margin: 4px 0 12px;
+  color: #555;
+}
+
+.contacts {
+  font-size: 15px;
+}
+
   </style>
 </head>
 <body>
+
+<div class="header">
+  <img src="photo.jpg" alt="Фото" class="photo">
 
 <h1>Гринько Сергей</h1>
 <p class="subtitle">Студент магистратуры</p>
