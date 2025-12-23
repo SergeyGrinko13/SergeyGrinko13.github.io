@@ -45,11 +45,13 @@
       text-decoration: underline;
     }
 
-    .header {
+.header {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin-bottom: 24px;
 }
+
 
 .photo {
   width: 150px;
@@ -71,6 +73,23 @@
 .contacts {
   font-size: 15px;
 }
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .contacts {
+    font-size: 14px;
+  }
+}
+
 
   </style>
 </head>
